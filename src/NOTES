@@ -1,0 +1,17 @@
+https://gdal.org/en/latest/programs/gdal2tiles.html
+
+gdal2tiles.py -s EPSG:2154 -z 0-18 --processes=8 -w openlayers -p IGN -r cubic /home/juju/lidar/out/z_merged_tiff/hackenberg.tif /home/juju/Bureau/mapant_tiles/
+
+gdal2tiles.py -s EPSG:2154 -z 0-17 --processes=8 -w openlayers -p IGN -r cubic /home/juju/lidar/out/z_merged_tiff/vrt.vrt /home/juju/Bureau/mapant_tiles/
+
+
+https://mapant-tiles.ovh/tiles/6/39/35.png
+https://mapant-tiles.ovh/tiles/6/41/34.png
+https://tile.openstreetmap.org/9/267/186.png
+https://data.geopf.fr/private/wmts?layer=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR&style=normal&tilematrixset=PM_6_16&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=9&TileCol=256&TileRow=188&apikey=ign_scan_ws
+
+
+
+copy tms_IGN.json toward /usr/share/gdal
+-p IGN_L93
+-p IGN

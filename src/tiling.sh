@@ -1,0 +1,9 @@
+gdal2tiles.py -s EPSG:2154 -z 0-17 --processes=8 -w openlayers -p IGN -r cubic /home/juju/lidar/out/z_merged_tiff/hackenberg.tif /home/juju/Bureau/mapant_tiles/
+gdal2tiles.py -s EPSG:2154 -z 0-17 --processes=8 -w openlayers -p IGN -r cubic /home/juju/lidar/out/z_merged_tiff/koenigsmacker.tif /home/juju/Bureau/mapant_tiles/
+gdal2tiles.py -s EPSG:2154 -z 0-17 --processes=8 -w openlayers -p IGN -r cubic /home/juju/lidar/out/z_merged_tiff/villers_befey.tif /home/juju/Bureau/mapant_tiles/
+gdal2tiles.py -s EPSG:2154 -z 0-17 --processes=8 -w openlayers -p IGN -r cubic /home/juju/lidar/out/z_merged_tiff/saint_avold.tif /home/juju/Bureau/mapant_tiles/
+gdal2tiles.py -s EPSG:2154 -z 0-17 --processes=8 -w openlayers -p IGN -r cubic /home/juju/lidar/out/z_merged_tiff/sierck.tif /home/juju/Bureau/mapant_tiles/
+gdal2tiles.py -s EPSG:2154 -z 0-17 --processes=8 -w openlayers -p IGN -r cubic /home/juju/lidar/out/z_merged_tiff/1000_etangs.tif /home/juju/Bureau/mapant_tiles/
+gdal2tiles.py -s EPSG:2154 -z 0-17 --processes=8 -w openlayers -p IGN -r cubic /home/juju/lidar/out/z_merged_tiff/abreschviller_walscheid_dabo.tif /home/juju/Bureau/mapant_tiles/
+gdal2tiles.py -s EPSG:2154 -z 0-17 --processes=8 -w openlayers -p IGN -r cubic /home/juju/lidar/out/z_merged_tiff/saugeais.tif /home/juju/Bureau/mapant_tiles/
+gdal2tiles.py -s EPSG:2154 -z 0-17 --processes=8 -w openlayers -p IGN -r cubic /home/juju/lidar/out/z_merged_tiff/mont_blanc_contamines.tif /home/juju/Bureau/mapant_tiles/
